@@ -1,13 +1,14 @@
 package no.hvl.dat100.tabeller;
 
 public class Tabeller {
+    
 
 
 
 	// a)
 	public static void skrivUt(int[] tabell) {
 
-		
+
 		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
 
 	}
@@ -15,8 +16,8 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+
+
 	}
 
 	// c)
