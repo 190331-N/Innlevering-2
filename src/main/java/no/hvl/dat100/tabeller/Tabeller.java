@@ -4,6 +4,7 @@ public class Tabeller {
     public static void main(String[] args) {
         int[] tab = {1, 2, 3, 4, 5};
         skrivUt(tab);
+        skrivUt(tab1);
     }
 
     // a)
@@ -14,14 +15,14 @@ public class Tabeller {
 
         }
     }
-/*
+
 	// b)
 	public static String tilStreng(int[] tabell) {
+        string[] tab1 = {42,67,89};
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+
 	}
-
+/*
 	// c)
 	public static int summer(int[] tabell) {
 
