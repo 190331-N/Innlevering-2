@@ -4,6 +4,7 @@ public class Tabeller {
     public static void main(String[] args) {
         int[] tab = {1, 2, 3, 4, 5};
         skrivUt(tab);
+        summer(tab);
     }
 
     // a)
@@ -14,7 +15,7 @@ public class Tabeller {
 
         }
     }
-/*
+
 	// b)
 	public static String tilStreng(int[] tabell) {
 
@@ -24,9 +25,13 @@ public class Tabeller {
 
 	// c)
 	public static int summer(int[] tabell) {
+        int sum=0;
+        for (int i = 0; i < tabell.length; i++) {
+            sum += tabell[i];
+        }
+        System.out.print(sum);
+        return sum;
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden summer ikke implementert");
 	}
 
 	// d)
@@ -65,5 +70,5 @@ public class Tabeller {
 		throw new UnsupportedOperationException("Metoden settSammen ikke implementert");
 
 	}
-	*/
+
 }
