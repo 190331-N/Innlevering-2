@@ -4,6 +4,9 @@ import java.util.Arrays;
 public class Tabeller {
     public static void main(String[] args) {
         int[] tab = {1, 2, 3, 4, 5};
+        int[] tab1 = {6, 7, 8, 9, 10};            //oppgave H
+        int[] resultat = settSammen(tab, tab1);   //oppgave H
+
         skrivUt(tab);
         System.out.println();
 
@@ -15,15 +18,16 @@ public class Tabeller {
         System.out.print(finnesTall(tab, 5));
         System.out.println();
 
-        System.out.println(posisjonTall(tab,4));
+        System.out.print(posisjonTall(tab,4));
         System.out.println();
 
         System.out.println(Arrays.toString(reverser(tab)));
 
         System.out.print(erSortert(tab));
         System.out.println();
-    }
 
+        System.out.print(Arrays.toString(resultat));
+    }
 
     // a)
     public static void skrivUt(int[] tabell) {
@@ -100,8 +104,6 @@ public class Tabeller {
     // h)
     public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
-        // TODO
-        throw new UnsupportedOperationException("Metoden settSammen ikke implementert");
 
     }
 
