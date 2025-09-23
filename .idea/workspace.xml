@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd27b69d-f3fb-47a4-9ff1-96835cb28053" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd27b69d-f3fb-47a4-9ff1-96835cb28053" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +86,14 @@
       <workItem from="1758194785276" duration="1290000" />
       <workItem from="1758618366535" duration="1764000" />
     </task>
+    <task id="LOCAL−00001" summary="j">
+      <option name="closed" value="true" />
+      <created>1758625042638</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1758625042638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="khjkjkl" />
-    <option name="LAST_COMMIT_MESSAGE" value="khjkjkl" />
+    <MESSAGE value="j" />
+    <option name="LAST_COMMIT_MESSAGE" value="j" />
   </component>
 </project>
