@@ -36,7 +36,7 @@ public class Tabeller {
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
-		// TODO idk
+		// TODO
 		throw new UnsupportedOperationException("Metoden finnesTall ikke implementert");
 
 	}
