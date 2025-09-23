@@ -12,7 +12,6 @@ public class Tabeller {
         for (int tab : tabell) {
             System.out.println(tab);
 
-
         }
     }
 
@@ -37,7 +36,7 @@ public class Tabeller {
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
-		// TODO
+		// TODO idk
 		throw new UnsupportedOperationException("Metoden finnesTall ikke implementert");
 
 	}
