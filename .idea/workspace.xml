@@ -42,7 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Tabeller.executor": "Debug",
+    "Application.Tabeller.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,7 +87,7 @@
       <workItem from="1758192791534" duration="10000" />
       <workItem from="1758193325128" duration="1222000" />
       <workItem from="1758194785276" duration="1290000" />
-      <workItem from="1758618366535" duration="3775000" />
+      <workItem from="1758618366535" duration="4956000" />
     </task>
     <servers />
   </component>
