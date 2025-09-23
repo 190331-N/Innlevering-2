@@ -1,4 +1,6 @@
+import java.util.Arrays;
 package no.hvl.dat100.tabeller;
+
 
 public class Tabeller {
     public static void main(String[] args) {
@@ -8,6 +10,8 @@ public class Tabeller {
         summer(tab);
         System.out.println();
         System.out.print(finnesTall(tab, 5));
+        System.out.println();
+
     }
 
 
@@ -20,7 +24,13 @@ public class Tabeller {
 
 	// b)
 	public static String tilStreng(int[] tabell) {
-        string 
+            for (int t : tabell) {
+                System.out.print(t + " ");
+            }
+            System.out.println();
+            }
+        }
+
 
 	}
 
