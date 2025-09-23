@@ -6,6 +6,8 @@ public class Tabeller {
         skrivUt(tab);
         System.out.println();
         summer(tab);
+        System.out.println();
+        System.out.print(finnesTall(tab, 5));
     }
 
 
@@ -13,7 +15,6 @@ public class Tabeller {
     public static void skrivUt(int[] tabell) {
         for (int tab : tabell) {
             System.out.print(tab+", ");
-
         }
     }
 
@@ -29,7 +30,7 @@ public class Tabeller {
         for (int i = 0; i < tabell.length; i++) {
             sum += tabell[i];
         }
-        System.out.print(sum);
+        System.out.println(sum);
         return sum;
 
 	}
@@ -37,9 +38,13 @@ public class Tabeller {
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden finnesTall ikke implementert");
-
+        boolean tf = false;
+        for (int i = 0; i < tabell.length; i++) {
+            if (tall == tabell[i]){
+                tf = true;
+            }
+        }
+        return tf;
 	}
 
 	// e)

@@ -17,18 +17,18 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "190331-N"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;190331-N&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/190331-N/Innlevering-2.git",
-    "accountId": "6af0cc6d-e268-46db-8704-3aa7fb45b84a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/190331-N/Innlevering-2.git&quot;,
+    &quot;accountId&quot;: &quot;6af0cc6d-e268-46db-8704-3aa7fb45b84a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1758192791534" duration="10000" />
       <workItem from="1758193325128" duration="1222000" />
       <workItem from="1758194785276" duration="1290000" />
-      <workItem from="1758618366535" duration="304000" />
+      <workItem from="1758618366535" duration="1764000" />
     </task>
     <servers />
   </component>
