@@ -25,7 +25,6 @@ public class Tabeller {
     // b)
     public static String tilStreng(int[] tab) {
             return Arrays.toString(tab).replace(" ", "");
-
     }
 
 
@@ -51,7 +50,7 @@ public class Tabeller {
         }
         return tf;
     }
-    
+
 
 
 
