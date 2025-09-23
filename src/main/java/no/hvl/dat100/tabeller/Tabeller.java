@@ -12,7 +12,7 @@ public class Tabeller {
             System.out.println(tab);
 
 
-        }
+        }//jkljkljlkn,n
     }
 /*
 	// b)
