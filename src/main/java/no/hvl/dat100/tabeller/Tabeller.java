@@ -12,7 +12,6 @@ public class Tabeller {
         System.out.print(finnesTall(tab, 5));
         System.out.println();
 
-
     }
 
 
@@ -52,13 +51,10 @@ public class Tabeller {
         }
         return tf;
     }
-}
+    
 
 
 
-
-
-    /*
 
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
@@ -98,4 +94,3 @@ public class Tabeller {
 	}
 
 }
-*/
