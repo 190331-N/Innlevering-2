@@ -7,22 +7,20 @@ public class Tabeller {
         System.out.println();
         summer(tab);
     }
-    //ENDRINGER TEST!!!!!!!!!!!!!!!!
+
 
     // a)
     public static void skrivUt(int[] tabell) {
         for (int tab : tabell) {
             System.out.print(tab+", ");
 
-
         }
     }
 
 	// b)
 	public static String tilStreng(int[] tabell) {
+        string 
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 	}
 
 	// c)
