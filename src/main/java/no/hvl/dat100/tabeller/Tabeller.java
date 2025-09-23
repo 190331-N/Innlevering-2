@@ -112,7 +112,7 @@ public class Tabeller {
             nyTabell[i] = tabell1[i];
         }
         for (int i = 0; i < l2; i++) {
-            nyTabell[l1 + 1]=tabell2[i];
+            nyTabell[l1 + i]=tabell2[i];
         }
         return nyTabell;
     }
