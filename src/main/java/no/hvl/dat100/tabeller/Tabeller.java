@@ -18,8 +18,8 @@ public class Tabeller {
         System.out.println(posisjonTall(tab,4));
         System.out.println();
 
-        System.out.println(Arrays.toString(reverser(tab)));
-
+        reverser(tab);
+        skrivUt(tab);
     }
 
 
@@ -76,12 +76,11 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
         int i = 0;
-        int l = tabell.length;
-        int[]nyTabell = new int[l];
+        int r = tabell.length-(i+1);
         for (i = 0; i < tabell.length; i++) {
-            nyTabell[i]=tabell[l-1-i];
+            tabell[i]=tabell[r];
         }
-        return nyTabell;
+        return new int[]{ tabell[i]};
 	}
 
 	// g)
