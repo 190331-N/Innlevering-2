@@ -4,6 +4,7 @@ public class Tabeller {
     public static void main(String[] args) {
         int[] tab = {1, 2, 3, 4, 5};
         skrivUt(tab);
+        System.out.println();
         summer(tab);
     }
     //ENDRINGER TEST!!!!!!!!!!!!!!!!
@@ -11,7 +12,7 @@ public class Tabeller {
     // a)
     public static void skrivUt(int[] tabell) {
         for (int tab : tabell) {
-            System.out.println(tab);
+            System.out.print(tab+", ");
 
 
         }
