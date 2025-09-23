@@ -85,6 +85,7 @@
       <workItem from="1758193325128" duration="1222000" />
       <workItem from="1758194785276" duration="1290000" />
       <workItem from="1758618366535" duration="1764000" />
+      <workItem from="1758625122598" duration="217000" />
     </task>
     <task id="LOCAL−00001" summary="j">
       <option name="closed" value="true" />
@@ -103,5 +104,16 @@
     <MESSAGE value="khjkjkl" />
     <MESSAGE value="j" />
     <option name="LAST_COMMIT_MESSAGE" value="j" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
