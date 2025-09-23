@@ -8,7 +8,6 @@ public class Tabeller {
         skrivUt(tab);
         System.out.println();
         summer(tab);
-        System.out.println();
         System.out.print(finnesTall(tab, 5));
         System.out.println();
 
@@ -61,16 +60,24 @@ public class Tabeller {
 
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
+        int t = -1;
+        for (int i = 0; i < tabell.length; i++) {
+            if (tall == tabell[i]){
+                t=i;
+            }
+        }
+        return t;
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden posisjonTall ikke implementert");
 	}
 
 	// f)
 	public static int[] reverser(int[] tabell) {
-
-		// TODO
-		throw new UnsupportedOperationException("Metoden reverser ikke implementert");
+        int i = 0;
+        int r = tabell.length-(i+1);
+        for (i = 0; i < tabell.length; i++) {
+            tabell[i]=tabell[r];
+        }
+        return new int[]{ tabell[i]};
 	}
 
 	// g)
