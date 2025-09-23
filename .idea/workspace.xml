@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd27b69d-f3fb-47a4-9ff1-96835cb28053" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,12 +88,23 @@
       <workItem from="1758193325128" duration="1222000" />
       <workItem from="1758194785276" duration="1290000" />
       <workItem from="1758618366535" duration="1764000" />
-      <workItem from="1758626409098" duration="2898000" />
+      <workItem from="1758626409098" duration="3095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="khjkjkl" />
