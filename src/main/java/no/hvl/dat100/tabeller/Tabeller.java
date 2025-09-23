@@ -15,11 +15,14 @@ public class Tabeller {
         System.out.print(finnesTall(tab, 5));
         System.out.println();
 
-        System.out.println(posisjonTall(tab,4));
+        System.out.print(posisjonTall(tab,4));
         System.out.println();
 
-        reverser(tab);
-        skrivUt(tab);
+        //reverser(tab);
+        //skrivUt(tab);
+
+        System.out.print(erSortert(tab));
+        System.out.println();
         
     }
 
@@ -33,7 +36,7 @@ public class Tabeller {
 
     // b)
     public static String tilStreng(int[] tab) {
-            return Arrays.toString(tab).replace(" ", "");
+            return Arrays.toString(tab);
 
     }
 
@@ -86,17 +89,20 @@ public class Tabeller {
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
+        for (int i = 0; i < tabell.length-1; i++) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
+            if (tabell[i] > tabell[i+1]) {
+                return false;
+
+            }
+        }
+        return true;
 	}
 
 	// h)
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
+        
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden settSammen ikke implementert");
 
 	}
-
 }
