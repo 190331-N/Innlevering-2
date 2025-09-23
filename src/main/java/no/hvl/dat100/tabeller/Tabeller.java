@@ -6,6 +6,7 @@ public class Tabeller {
         skrivUt(tab);
         summer(tab);
     }
+    //ENDRINGER TEST!!!!!!!!!!!!!!!!
 
     // a)
     public static void skrivUt(int[] tabell) {
