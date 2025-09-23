@@ -20,7 +20,6 @@ public class Tabeller {
 
         reverser(tab);
         skrivUt(tab);
-        
     }
 
 
