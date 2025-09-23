@@ -13,6 +13,7 @@ public class Tabeller {
         for (int tab : tabell) {
             System.out.print(tab+", ");
 
+
         }
     }
 
