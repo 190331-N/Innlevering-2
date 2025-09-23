@@ -5,18 +5,8 @@ public class Tabeller {
         int[] tab = {1, 2, 3, 4, 5};
         skrivUt(tab);
         System.out.println();
-
         summer(tab);
-
         System.out.print(finnesTall(tab, 5));
-        System.out.println();
-
-        System.out.println(posisjonTall(tab,4));
-        System.out.println();
-
-        reverser(tab);
-        skrivUt(tab);
-        System.out.println(erSortert(tab));
     }
     //ENDRINGER TEST!!!!!!!!!!!!!!!!
 
@@ -71,9 +61,9 @@ public class Tabeller {
 
 	// f)
 	public static int[] reverser(int[] tabell) {
-        int i =0;
+        int i = 0;
+        int r = tabell.length-(i+1);
         for (i = 0; i < tabell.length; i++) {
-            int r = tabell.length-(i);
             tabell[i]=tabell[r];
         }
         return new int[]{ tabell[i]};
@@ -81,13 +71,9 @@ public class Tabeller {
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
-        boolean s = true;
-        for (int i = 0; i < tabell.length; i++) {
-            if(tabell[i]>tabell[i+1]){
-                s = false;
-            }
-        }
-        return s;
+
+		// TODO
+		throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
 	}
 
 	// h)
