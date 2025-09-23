@@ -6,12 +6,21 @@ public class Tabeller {
         int[] tab = {1, 2, 3, 4, 5};
         skrivUt(tab);
         System.out.println();
+
         System.out.print(tilStreng(tab));
         System.out.println();
+
         summer(tab);
+
         System.out.print(finnesTall(tab, 5));
         System.out.println();
 
+        System.out.println(posisjonTall(tab,4));
+        System.out.println();
+
+        reverser(tab);
+        skrivUt(tab);
+        
     }
 
 
@@ -51,9 +60,6 @@ public class Tabeller {
         }
         return tf;
     }
-    
-
-
 
 
 	// e)
