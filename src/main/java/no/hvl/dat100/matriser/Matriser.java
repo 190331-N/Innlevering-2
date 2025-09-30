@@ -10,40 +10,40 @@ public class Matriser {
 
         skrivUt(mat);
         System.out.println(tilStreng(mat));
-        int[][] nyMat = skaler(2,mat);
+        int[][] nyMat = skaler(2, mat);
         skrivUt(nyMat);
         System.out.println();
-        System.out.print(erLik(mat,nyMat));
+        System.out.print(erLik(mat, nyMat));
     }
 
-	// a)
-	public static void skrivUt(int[][] matrise) {
+    // a)
+    public static void skrivUt(int[][] matrise) {
         for (int[] rad : matrise) {
-            for(int element : rad){
-                System.out.print(element+" ");
+            for (int element : rad) {
+                System.out.print(element + " ");
             }
             System.out.println();
 
         }
-	}
+    }
 
-	// b)
-	public static String tilStreng(int[][] matrise) {
+    // b)
+    public static String tilStreng(int[][] matrise) {
         String resultat = "";
-            for (int[] rad : matrise) {
-                for(int element : rad){
-                    resultat = resultat + element+" ";
-
-                }
-                resultat += "\n";
+        for (int[] rad : matrise) {
+            for (int element : rad) {
+                resultat = resultat + element + " ";
 
             }
-            return resultat;
-		
-	}
+            resultat += "\n";
 
-	// c)
-	public static int[][] skaler(int tall, int[][] matrise) {
+        }
+        return resultat;
+
+    }
+
+    // c)
+    public static int[][] skaler(int tall, int[][] matrise) {
 
         int[][] nyMat = new int[matrise.length][matrise[0].length];
         for (int i = 0; i < matrise.length; i++) {
@@ -55,8 +55,8 @@ public class Matriser {
     }
 
 
-	// d)
-	public static boolean erLik(int[][] a, int[][] b) {
+    // d)
+    public static boolean erLik(int[][] a, int[][] b) {
         boolean x = true;
 
         if (a.length != b.length) {
@@ -74,24 +74,6 @@ public class Matriser {
                 }
             }
         }
-            return x;
-        }
-
-	
-	// e)
-	public static int[][] speile(int[][] matrise) {
-
-		// TODO
-
-		throw new UnsupportedOperationException("Metoden speile ikke implementert");
-
-	}
-
-	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
-
-		// TODO
-		throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
-	
-	}
+        return x;
+    }
 }
