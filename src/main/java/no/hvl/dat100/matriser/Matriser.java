@@ -8,14 +8,17 @@ public class Matriser {
                 {9, 10, 11, 12}
         };
 
+        skrivUt(mat);
     }
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
-        for (int tabell : matrise) {
-
+        for (int[] rad : matrise) {
+            for(int element : rad){
+                System.out.print(element+" ");
+            }
+            System.out.println();
         }
-
 	}
 
 	// b)
