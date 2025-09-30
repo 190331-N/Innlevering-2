@@ -39,7 +39,7 @@ public class Matriser {
 
             }
             return resultat;
-		
+
 	}
 
 	// c)
@@ -77,7 +77,7 @@ public class Matriser {
             return x;
         }
 
-	
+
 	// e)
 	public static int[][] speile(int[][] matrise) {
 
@@ -92,6 +92,6 @@ public class Matriser {
 
 		// TODO
 		throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
-	
+
 	}
 }
