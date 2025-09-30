@@ -3,9 +3,9 @@ package no.hvl.dat100.matriser;
 public class Matriser {
     public static void main(String[] args) {
         int[][] mat = {
-                {1, 2, 3},
-                {5, 6, 7},
-                {9, 10, 12}
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12}
         };
 
         skrivUt(mat);
@@ -57,23 +57,21 @@ public class Matriser {
 
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
-        boolean x = true;
-
         if (a.length != b.length) {
-            x = false;
+            return false;
         }
 
         for (int i = 0; i < a.length; i++) {
             if (a[i].length != b[i].length) {
-                x = false;
+                return false;
             }
 
             for (int j = 0; j < a[i].length; j++) {
                 if (a[i][j] != b[i][j]) {
-                    x = false;
+                    return false;
                 }
             }
         }
-        return x;
+        return true;
     }
 }
