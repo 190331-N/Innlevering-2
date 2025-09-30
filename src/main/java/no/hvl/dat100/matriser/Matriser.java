@@ -9,6 +9,7 @@ public class Matriser {
         };
 
         skrivUt(mat);
+        System.out.println(tilStreng(mat));
     }
 
 	// a)
@@ -18,14 +19,22 @@ public class Matriser {
                 System.out.print(element+" ");
             }
             System.out.println();
+
         }
 	}
 
 	// b)
 	public static String tilStreng(int[][] matrise) {
+        String resultat = "";
+            for (int[] rad : matrise) {
+                for(int element : rad){
+                    resultat = resultat + element+" ";
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+                }
+                resultat += "\n";
+
+            }
+            return resultat;
 		
 	}
 
