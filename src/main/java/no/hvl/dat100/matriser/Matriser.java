@@ -74,24 +74,6 @@ public class Matriser {
                 }
             }
         }
-            return x;
-        }
-
-
-	// e)
-	public static int[][] speile(int[][] matrise) {
-
-		// TODO
-
-		throw new UnsupportedOperationException("Metoden speile ikke implementert");
-
-	}
-
-	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
-
-		// TODO
-		throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
-
-	}
+        return x;
+    }
 }
