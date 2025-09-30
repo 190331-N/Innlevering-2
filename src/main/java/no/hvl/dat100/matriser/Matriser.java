@@ -1,12 +1,21 @@
 package no.hvl.dat100.matriser;
 
 public class Matriser {
+    public static void main(String[] args) {
+        int[][] mat = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12}
+        };
+
+    }
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
-		
-		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
+        for (int tabell : matrise) {
+
+        }
+
 	}
 
 	// b)
@@ -39,7 +48,7 @@ public class Matriser {
 		// TODO
 
 		throw new UnsupportedOperationException("Metoden speile ikke implementert");
-	
+
 	}
 
 	// f)
