@@ -12,6 +12,8 @@ public class Matriser {
         System.out.println(tilStreng(mat));
         int[][] nyMat = skaler(2,mat);
         skrivUt(nyMat);
+        System.out.println();
+        System.out.print(erLik(mat,nyMat));
     }
 
 	// a)
@@ -55,11 +57,26 @@ public class Matriser {
 
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
+        boolean x = true;
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden erLik ikke implementert");
-		
-	}
+        if (a.length != b.length) {
+            x = false;
+        }
+
+        for (int i = 0; i < a.length; i++) {
+            if (a[i].length != b[i].length) {
+                x = false;
+            }
+
+            for (int j = 0; j < a[i].length; j++) {
+                if (a[i][j] != b[i][j]) {
+                    x = false;
+                }
+            }
+        }
+            return x;
+        }
+
 	
 	// e)
 	public static int[][] speile(int[][] matrise) {
